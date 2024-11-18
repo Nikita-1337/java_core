@@ -9,8 +9,6 @@ public class Task2 {
                 sum += i;
                 count++;
 
-            } else  {
-
             }
         }
         System.out.println("Сумма всех чётных чисел от 1 до 100: " + sum);
