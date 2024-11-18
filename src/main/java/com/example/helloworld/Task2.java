@@ -15,5 +15,6 @@ public class Task2 {
         }
         System.out.println("Сумма всех чётных чисел от 1 до 100: " + sum);
         System.out.println("Количество чётных чисел от 1 до 100: " + count);
+        System.out.println("Толмач: file:///C:/Users/user/Desktop/123456.jpg");
     }
 }
