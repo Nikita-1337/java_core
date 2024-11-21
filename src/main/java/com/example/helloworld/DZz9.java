@@ -1,3 +1,5 @@
+package com.example.helloworld;
+
 import java.util.Scanner; // строка нужна для подключения сканнера
 
 public class DZz9 {
