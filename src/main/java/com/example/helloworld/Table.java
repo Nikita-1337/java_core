@@ -4,8 +4,9 @@ public class Table {
     public static void main(String[] args) {
         int che = 4;
         int i = 1;
+        int she = 12;
         System.out.println("Таблица умножения на 4");
-        while (i<=10) {
+        while (i<=she) {
             System.out.println( che + "х" + i + "=" + (che * i));
             i++;
         }
