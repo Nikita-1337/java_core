@@ -5,7 +5,6 @@ public class TaskBreakContinue {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         metod(sc);
-        sc.close();  // Закрытие сканера
     }
 
     public static void metod(Scanner sc) {
@@ -69,7 +68,6 @@ public class TaskBreakContinue {
                         "____________888888888888888___18888888___________");
 
             } catch (InterruptedException e) {
-                // Если поток был прерван, обрабатываем исключение
                 System.out.println("Ошибка: поток был прерван.");
             }
         }
