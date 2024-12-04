@@ -1,13 +1,10 @@
 package com.example.helloworld;
-
-import java.util.Scanner;
 import java.util.InputMismatchException;
-
+import java.util.Scanner;
 public class Massive2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int chislo = 0;
-
 
         while (true) {
             try {
@@ -23,7 +20,6 @@ public class Massive2 {
                 scan.next();
             }
         }
-
 
         int[] massive = new int[chislo];
 
@@ -47,8 +43,6 @@ public class Massive2 {
         for (int i = 0; i < massive.length; i++) {
             System.out.println("Элемент " + (i + 1) + ": " + massive[i]);
         }
-
-
         int min = massive[0];
         int max = massive[0];
         for (int i = 1; i < massive.length; i++) {
@@ -59,7 +53,6 @@ public class Massive2 {
                 max = massive[i];
             }
         }
-
 
         System.out.println("Минимальное значение массива: " + min);
         System.out.println("Максимальное значение массива: " + max);
