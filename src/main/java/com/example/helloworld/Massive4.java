@@ -3,9 +3,11 @@ import java.util.Scanner;
 
 public class Massive4 {
     public static void main(String[] args) {
-        int[][] matr = {{1, 2, 3},
+        int[][] matr = {
+                {1, 2, 3},
                 {4, 5, 6},
-                {7, 8, 9}};
+                {7, 8, 9}
+        };
         String[][] str = new String[2][2];
         int sum = 0;
         Scanner scan = new Scanner(System.in);
